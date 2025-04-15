@@ -49,13 +49,6 @@ Grocery Vision is a smart inventory assistant that helps you identify grocery it
    npm install
    ```
 
-3. Set up environment variables:
-   - Create a `.env` file in the backend directory
-   - Add your API key (get one from [Google MakerSuite](https://makersuite.google.com/app/apikey))
-   ```
-   GOOGLE_API_KEY=your_api_key_here
-   PORT=5000
-   ```
 
 ### Running the Application
 
@@ -130,4 +123,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by Anant Singhal
+Made with ❤️ by Committed Devs
