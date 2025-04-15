@@ -1,4 +1,4 @@
-# Grocery Vision
+![Screenshot 2025-04-15 150812](https://github.com/user-attachments/assets/eff6e32a-eab3-4e64-9d60-b63833504e95)# Grocery Vision
 
 ![Grocery Vision]
 
@@ -70,6 +70,11 @@ Grocery Vision is a smart inventory assistant that helps you identify grocery it
    ```
    http://localhost:3000
    ```
+![Screenshot 2025-04-15 150812](https://github.com/user-attachments/assets/066850c2-48b0-4cd9-9395-39d768d0bd87)
+![Screenshot 2025-04-15 150828](https://github.com/user-attachments/assets/b0282c8e-5824-48fb-819a-d80344dc87a6)
+![Screenshot 2025-04-15 150838](https://github.com/user-attachments/assets/5ed99363-8e32-4509-ab54-029e498b8401)
+![Screenshot 2025-04-15 150849](https://github.com/user-attachments/assets/2f9a49e4-da6e-4f0d-ad38-0133f4079eea)
+
 
 ## Usage
 
