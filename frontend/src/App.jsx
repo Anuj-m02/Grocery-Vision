@@ -19,6 +19,9 @@ import {
 } from "lucide-react";
 import axios from "axios";
 
+// Get the API URL from environment variables
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+
 function App() {
   const [items, setItems] = useState([]);
   const [freshProduce, setFreshProduce] = useState([]);
@@ -43,7 +46,7 @@ function App() {
   useEffect(() => {
     const checkBackendStatus = async () => {
       try {
-        await axios.get("http://localhost:5000");
+        await axios.get(API_URL);
         setIsBackendRunning(true);
       } catch (error) {
         if (error.code === "ERR_NETWORK") {
@@ -107,8 +110,8 @@ function App() {
       console.log("🚀 Sending item detection request to API...");
       setError(null);
 
-      // Use direct endpoint - no more proxy fallback
-      const url = "http://localhost:5000/api/detect-items";
+      // Use API URL from environment variables
+      const url = `${API_URL}/api/detect-items`;
       console.log("📡 Sending request to:", url);
 
       const response = await axios.post(url, formData, {
@@ -175,8 +178,8 @@ function App() {
       console.log("🚀 Sending freshness detection request to API...");
       setError(null);
 
-      // Use direct endpoint - no more proxy fallback
-      const url = "http://localhost:5000/api/detect-freshness";
+      // Use API URL from environment variables
+      const url = `${API_URL}/api/detect-freshness`;
       console.log("📡 Sending request to:", url);
 
       const response = await axios.post(url, formData, {
