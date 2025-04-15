@@ -1,7 +1,5 @@
 ![Screenshot 2025-04-15 150812](https://github.com/user-attachments/assets/eff6e32a-eab3-4e64-9d60-b63833504e95)# Grocery Vision
 
-![Grocery Vision]
-
 ## Overview
 
 Grocery Vision is a smart inventory assistant that helps you identify grocery items and assess the freshness of produce using your device's camera or uploaded images. Perfect for managing your pantry, planning meals, and reducing food waste.
