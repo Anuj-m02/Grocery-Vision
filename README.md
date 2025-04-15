@@ -1,4 +1,5 @@
-![Screenshot 2025-04-15 150812](https://github.com/user-attachments/assets/eff6e32a-eab3-4e64-9d60-b63833504e95)# Grocery Vision
+![Screenshot 2025-04-15 150812](https://github.com/user-attachments/assets/eff6e32a-eab3-4e64-9d60-b63833504e95)
+# Grocery Vision
 
 ## Overview
 
