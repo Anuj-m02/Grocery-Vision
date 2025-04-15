@@ -113,7 +113,6 @@ grocery-vision/
 ### Common Issues
 
 - **Backend Not Running**: Make sure the backend server is running on port 5000
-- **API Key Issues**: Verify your API key is correctly set in the backend `.env` file
 - **Image Upload Errors**: Ensure the image is in a supported format (JPG, PNG, etc.)
 - **Request Timeout**: Try using a smaller image or check your internet connection
 
@@ -128,4 +127,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by Coding Crackers
+Made with ❤️ by Code Crackers
